@@ -1,0 +1,62 @@
+-------------------------------------------------------------------------------
+Test set: logica.CalcularTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec <<< FAILURE!
+logica.CalcularTest.testX()  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at logica.CalcularTest.testX(CalcularTest.java:44)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 19 more
+
+logica.CalcularTest.testPromedioLN()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at logica.CalcularTest.testPromedioLN(CalcularTest.java:74)
+
+logica.CalcularTest.testSumatoria()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at logica.CalcularTest.testSumatoria(CalcularTest.java:31)
+
+logica.CalcularTest.testLN()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at logica.CalcularTest.testLN(CalcularTest.java:59)
+
+logica.CalcularTest.testSumatoriaLN()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at logica.CalcularTest.testSumatoriaLN(CalcularTest.java:67)
+
+logica.CalcularTest.testVarianzaLnX()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at logica.CalcularTest.testVarianzaLnX(CalcularTest.java:91)
+
+logica.CalcularTest.testVS()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at logica.CalcularTest.testVS(CalcularTest.java:105)
+
+logica.CalcularTest.testS()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at logica.CalcularTest.testS(CalcularTest.java:112)
+
+logica.CalcularTest.testOmega()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at logica.CalcularTest.testOmega(CalcularTest.java:98)
+
+logica.CalcularTest.testM()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at logica.CalcularTest.testM(CalcularTest.java:119)
+
+logica.CalcularTest.testL()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at logica.CalcularTest.testL(CalcularTest.java:126)
+
+logica.CalcularTest.testVL()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at logica.CalcularTest.testVL(CalcularTest.java:133)
+
+logica.CalcularTest.testSumatoriaLnAvg2()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at logica.CalcularTest.testSumatoriaLnAvg2(CalcularTest.java:82)
+
